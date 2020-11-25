@@ -30,5 +30,8 @@ def find_valid_calls(planeteer_calls)
   
   if planeteer_calls.include?(valid_calls) then
     planeteer_calls.find {|call| == valid_calls
+    
+  else
+    nil
   end
 end
